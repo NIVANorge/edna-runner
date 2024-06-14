@@ -1,2 +1,2 @@
 # edna-runner
-eDNA pipeline runeer
+eDNA pipeline runner
