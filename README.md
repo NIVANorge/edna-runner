@@ -1,6 +1,12 @@
 # edna-runner
 eDNA pipeline runner
 
+# Documentation
+
+- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
+- Equinor tender info
+
+
 # Resources
 
 - [MetaBarFlow](https://github.com/evaegelyng/MetaBarFlow)
