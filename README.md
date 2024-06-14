@@ -22,3 +22,22 @@ eDNA pipeline runner
 - [emo-bon/hackathon2022](https://github.com/emo-bon/hackathon2022)
 
 
+# List of people
+- Steen Knudsen, NIVA
+- Marc Angles D'Auriac, NIVA
+- You Song, NIVA
+- ...
+- Anette Engesmo, NIVA
+- Tor Erik Erikssen, NIVA
+- Andreas Ballot, NIVA
+- Benoit Demars, NIVA
+- ...
+- Lionel Camus, PM Equinor, Akvaplan-niva
+- Virginie Ramasco, PM Equinor, Akvaplan-niva
+- Sana Majaneva, Akvaplan-niva
+- ...
+- Kim Praebel, UiT
+- ...
+- Dag Hjermann, NIVA
+- Kim Leirvik, NIVA
+- Benno Dillinger, NIVA
