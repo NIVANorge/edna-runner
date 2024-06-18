@@ -5,14 +5,44 @@ eDNA pipeline runner
 
 # Documentation
 
+## Workflow - Metabarflow, MinION
+- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
+
+
 ## Metabarflow
 - Equinor tender info, Steen
 
-## ONT MinIon, GridIon
+### Libraries
+
+### Metabarflow input data
+
+### Metabarflow output data
+
+
+## ONT MinION, GridION
 - Equinor tender info, Marc
 
-## Workflow - Metabarflow, MinION
-- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
+### Libraries
+- pod5 https://github.com/nanoporetech/pod5-file-format
+- json
+
+### ONT MinION input data
+
+### ONT MinION output data
+
+#### Folder structure
+![image](https://github.com/NIVANorge/edna-runner/assets/117283235/87b7b228-dcc9-4ac3-8bbf-c52c14b08f7c)
+
+
+
+
+
+## Reference libraries
+
+### RefSeq: NCBI Reference Sequence Database
+https://www.ncbi.nlm.nih.gov/refseq/
+
+### more ...
 
 
 # Resources
