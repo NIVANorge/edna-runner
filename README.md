@@ -53,6 +53,7 @@ https://www.ncbi.nlm.nih.gov/refseq/
 
 # Resources
 
+- [biocontainers](https://training.nextflow.io/basic_training/containers/#biocontainers)
 - [MetaBarFlow](https://github.com/evaegelyng/MetaBarFlow)
 - [uit-metabarcoding](https://github.com/uit-metabarcoding)
 - [emo-bon/hackathon2022](https://github.com/emo-bon/hackathon2022)
