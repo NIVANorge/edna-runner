@@ -5,6 +5,12 @@ eDNA pipeline runner
 
 # Documentation
 
+## Setup
+
+1. Install [poetry](https://python-poetry.org/docs/#installation)
+2. run `poetry config virtualenvs.in-project true` so you get the virtual env in this repo
+3. run `poetry install`
+
 ## Workflow - Metabarflow, MinION
 - ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
 
