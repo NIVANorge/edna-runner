@@ -24,7 +24,10 @@ Sequencer output from ONT. Status passed.
 Sequencer coverage. From ONT.
 
 ### amr
-AMR file. not sure where those come from.
+AMR files in json format. not sure where those come from.
+
+### AMR_conversion
+xlsx file created from AMR files. See R script.
 
 
 ### throughput_FAY98638_f4f80a9b_3cb56578.csv
