@@ -14,6 +14,26 @@ eDNA pipeline runner
 ## Workflow - Metabarflow, MinION
 - ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
 
+### fastq_fail
+Sequencer output from ONT. Status failed.
+
+### fastq_pass
+Sequencer output from ONT. Status passed.
+
+### pod5_pass
+Sequencer coverage. From ONT.
+
+### amr
+AMR file. not sure where those come from.
+
+
+### throughput_FAY98638_f4f80a9b_3cb56578.csv
+Base call statistics
+
+### other files
+Metadata from ONT 
+
+
 
 ## Metabarflow
 - Equinor tender info, Steen
