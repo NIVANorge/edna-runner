@@ -15,26 +15,31 @@ eDNA pipeline runner
 - ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
 
 ### fastq_fail
-Sequencer output from ONT. Status failed.
+- Sequencer output from ONT
+- Status failed.
 
 ### fastq_pass
-Sequencer output from ONT. Status passed.
+- Sequencer output from ONT
+- Status passed.
 
 ### pod5_pass
-Sequencer coverage. From ONT.
+- Sequencer coverage
+- From ONT.
 
 ### amr
-AMR files in json format. not sure where those come from.
+- AMR files in json format
+- -not sure where those come from.
 
 ### AMR_conversion
-xlsx file created from AMR files. See R script.
+- xlsx file created from AMR files
+- See R script.
 
 
 ### throughput_FAY98638_f4f80a9b_3cb56578.csv
-Base call statistics
+- Base call statistics
 
 ### other files
-Metadata from ONT 
+- Metadata from ONT 
 
 
 
