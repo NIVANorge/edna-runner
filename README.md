@@ -29,8 +29,14 @@ eDNA pipeline runner
 - Equinor tender info, Marc
 
 ### Libraries
-- pod5 https://github.com/nanoporetech/pod5-file-format
-- json see conversion_amr.r
+
+#### pod5 https://github.com/nanoporetech/pod5-file-format 
+- works well with pipx installation (requires setting Pythonpaths to pipx env folder)
+- 
+
+#### AMR json files
+- see conversion_amr.r
+- needs to be rewritten
 
 ### ONT MinION input data
 
