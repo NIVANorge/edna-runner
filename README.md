@@ -30,7 +30,7 @@ eDNA pipeline runner
 
 ### Libraries
 - pod5 https://github.com/nanoporetech/pod5-file-format
-- json
+- json see conversion_amr.r
 
 ### ONT MinION input data
 
