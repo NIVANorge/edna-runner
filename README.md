@@ -11,37 +11,6 @@ eDNA pipeline runner
 2. run `poetry config virtualenvs.in-project true` so you get the virtual env in this repo
 3. run `poetry install`
 
-## Workflow - Metabarflow, MinION
-- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
-
-### fastq_fail
-- Sequencer output from ONT
-- Status failed.
-
-### fastq_pass
-- Sequencer output from ONT
-- Status passed.
-
-### pod5_pass
-- Sequencer coverage
-- From ONT.
-
-### amr
-- AMR files in json format
-- -not sure where those come from.
-
-### AMR_conversion
-- xlsx file created from AMR files
-- See R script.
-
-
-### throughput_FAY98638_f4f80a9b_3cb56578.csv
-- Base call statistics
-
-### other files
-- Metadata from ONT 
-
-
 
 ## Metabarflow
 - Equinor tender info, Steen
@@ -74,6 +43,35 @@ eDNA pipeline runner
 ![image](https://github.com/NIVANorge/edna-runner/assets/117283235/87b7b228-dcc9-4ac3-8bbf-c52c14b08f7c)
 
 
+## Workflow - Metabarflow, MinION
+- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
+
+### fastq_fail
+- Sequencer output from ONT
+- Status failed.
+
+### fastq_pass
+- Sequencer output from ONT
+- Status passed.
+
+### pod5_pass
+- Sequencer coverage
+- From ONT.
+
+### amr
+- AMR files in json format
+- -not sure where those come from.
+
+### AMR_conversion
+- xlsx file created from AMR files
+- See R script.
+
+
+### throughput_FAY98638_f4f80a9b_3cb56578.csv
+- Base call statistics
+
+### other files
+- Metadata from ONT 
 
 
 
