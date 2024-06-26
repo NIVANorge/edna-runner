@@ -11,66 +11,84 @@ eDNA pipeline runner
 2. run `poetry config virtualenvs.in-project true` so you get the virtual env in this repo
 3. run `poetry install`
 
+## infrastructure
+- Kim
+- libraries
+- Google Cloud, Google storage
+- diagrams
 
-## Metabarflow
+
+## Workflow - Metabarflow, MinION
+![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
+
+
+
+### Metabarflow
 - Equinor tender info, Steen
 
-### Libraries
+#### Metabarflow libraries
 
-### Metabarflow input data
+- cutadapt
+- BLAS
+- fasta
+- BioConductor
+- dada2
+- ...
 
-### Metabarflow output data
+
+#### Metabarflow input data
+
+#### Metabarflow output data
 
 
-## ONT MinION, GridION
+### ONT MinION, GridION
 - Equinor tender info, Marc
 
-### Libraries
+#### ONT libraries
 
-#### pod5 https://github.com/nanoporetech/pod5-file-format 
+##### pod5 https://github.com/nanoporetech/pod5-file-format 
 - works well with pipx installation (requires setting Pythonpaths to pipx env folder)
 - 
 
-#### AMR json files
+##### AMR json files
 - see conversion_amr.r
 - needs to be rewritten
 
-### ONT MinION input data
+#### ONT MinION input data
 
-### ONT MinION output data
+#### ONT MinION output data
 
 #### Folder structure
 ![image](https://github.com/NIVANorge/edna-runner/assets/117283235/87b7b228-dcc9-4ac3-8bbf-c52c14b08f7c)
 
 
-## Workflow - Metabarflow, MinION
-- ![eDNA_workflow drawio 5 drawio](https://github.com/NIVANorge/edna-runner/assets/117283235/425cb02a-fa57-499a-a6eb-a5ca069faa9f)
 
-### fastq_fail
+
+##### fastq_fail
 - Sequencer output from ONT
 - Status failed.
 
-### fastq_pass
+##### fastq_pass
 - Sequencer output from ONT
 - Status passed.
 
-### pod5_pass
+##### pod5_pass
 - Sequencer coverage
 - From ONT.
+- status passed
 
-### amr
+##### amr
 - AMR files in json format
-- -not sure where those come from.
+- not sure where those come from.
 
-### AMR_conversion
+##### AMR_conversion
 - xlsx file created from AMR files
 - See R script.
 
-
-### throughput_FAY98638_f4f80a9b_3cb56578.csv
+##### throughput_FAY98638_f4f80a9b_3cb56578.csv
 - Base call statistics
 
-### other files
+##### other files
 - Metadata from ONT 
 
 
