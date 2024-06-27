@@ -17,7 +17,7 @@ eDNA pipeline runner
   - ...
 - libraries
 - Google Cloud
-- Google Sstorage
+- Google Storage
 - HPC (SLURM)
 - diagrams (draw.io)
 
@@ -101,6 +101,49 @@ eDNA pipeline runner
 # Reference libraries
 
 ## Reference library curation
+
+### NIVA - Oceanography
+- Anette Engesmo
+- Marc d'Auriac
+- ...
+
+### NIVA - Freshwater
+
+- Bunndyr
+  - Tor Erik Eriksen
+
+- Phytoplankton
+  - Andreas Ballot
+  - Birger Skjellbred 
+
+- Zooplankton
+  - ?
+
+- Macrophytes
+  - Benoit Demars
+
+- Begroing
+  - ?
+
+- Fish
+  - ?
+
+- Fungi etc
+  - ...?
+
+### NIVA Denmark
+- Steen Knudsen
+
+### NIVA - ???
+
+- AMR
+  -   Carsten Schwermer
+
+### Akvaplan-niva
+
+- Lionel Camus
+- ...?
+
 
 ## RefSeq: NCBI Reference Sequence Database
 https://www.ncbi.nlm.nih.gov/refseq/
