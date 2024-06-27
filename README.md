@@ -12,10 +12,14 @@ eDNA pipeline runner
 3. run `poetry install`
 
 ## infrastructure
-- Kim
+- nextflow (Kim)
+  - Kubernetes
+  - ...
 - libraries
-- Google Cloud, Google storage
-- diagrams
+- Google Cloud
+- Google Sstorage
+- HPC (SLURM)
+- diagrams (draw.io)
 
 
 ## Workflow - Metabarflow, MinION
@@ -28,11 +32,12 @@ eDNA pipeline runner
 
 #### Metabarflow libraries
 
-- cutadapt
-- BLAS
-- fasta
-- BioConductor
-- dada2
+- cutadapt https://cutadapt.readthedocs.io/en/stable/
+- BLAST https://blast.ncbi.nlm.nih.gov/Blast.cgi
+- fasta https://www.ncbi.nlm.nih.gov/genbank/fastaformat/
+- fastq https://knowledge.illumina.com/software/general/software-general-reference_material-list/000002211
+- BioConductor https://www.bioconductor.org/
+- dada2 https://benjjneb.github.io/dada2/
 - ...
 
 
@@ -93,12 +98,24 @@ eDNA pipeline runner
 
 
 
-## Reference libraries
+# Reference libraries
 
-### RefSeq: NCBI Reference Sequence Database
+## Reference library curation
+
+## RefSeq: NCBI Reference Sequence Database
 https://www.ncbi.nlm.nih.gov/refseq/
 
-### more ...
+## BOLD
+
+# Sequencer
+- Illumina
+- MinION
+- GridION
+- ..-
+
+## Sequencer outout 
+
+## NIVA sequencer
 
 
 # Resources
@@ -110,5 +127,7 @@ https://www.ncbi.nlm.nih.gov/refseq/
 - [emo-bon/hackathon2022](https://github.com/emo-bon/hackathon2022)
 - [BOLD - BARCODE OF LIFE DATA SYSTEM v4](https://boldsystems.org/)
 
-
+# Tools
+- [diagrams](https://www.drawio.com/)
+  
 
