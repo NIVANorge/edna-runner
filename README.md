@@ -73,9 +73,9 @@ eDNA pipeline runner
 - pod5 files
   - unclassified sequences
   - identifier = Barcode
--  fastaq files
+- fastaq files
   - identifier = Barcode
-- outoput can be used for both for MinKNOW and Epi2me
+- output can be used for both for MinKNOW and Epi2me
 - ...
 
  
