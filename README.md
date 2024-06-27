@@ -42,11 +42,17 @@ eDNA pipeline runner
 
 
 #### Metabarflow input data
+- Steen
+
 
 #### Metabarflow output data
+- Steen
 
 
-### ONT MinION, GridION
+
+
+### Oxford Nanopore Technologies (ONT) MinION, GridION
+- pipeline = nextflow provided by ONT
 - Equinor tender info, Marc
 
 #### ONT libraries
@@ -64,29 +70,40 @@ eDNA pipeline runner
 - identifiers?
 
 #### ONT MinION output data
-- outoput can be used for both from MinKNOW and Epi2me
+- pod5 files
+  - unclassified sequences
+  - identifier = Barcode
+-  fastaq files
+  - identifier = Barcode
+- outoput can be used for both for MinKNOW and Epi2me
+-  MinKNOW already "demultiplex" the sequences setting them in numbered barcode folders. 
 - 
 #### MinKNOW output
 - run on local machine (notebook workstation)
-- fastq files comes from MinKNOW
+- de-multiplexing
+- output = fastq files
+- folders structure
+  - identifier = Barcode 
 
 #### Epi2me 
-- The analysis report from Epi2ME Work Flow metagenomics 
+- import of Fastq and pod5 files
+- output is 'analysis report files'
+- analysis report from Epi2ME Work Flow metagenomics 
 <img width="709" alt="image" src="https://github.com/NIVANorge/edna-runner/assets/117283235/b9e213b7-c7e1-462a-b15b-e64246dddb06">
 
 #### Folder structure
 ![image](https://github.com/NIVANorge/edna-runner/assets/117283235/87b7b228-dcc9-4ac3-8bbf-c52c14b08f7c)
 
 ##### fastq_fail
-- Sequencer output from ONT
+- Sequencer output from MinKNOW, 
 - Status failed.
 
 ##### fastq_pass
-- Sequencer output from ONT
+- Sequencer output from MinKNOW
 - Status passed.
 
 ##### pod5_pass
-- Sequencer coverage
+- Sequencer coverage from MinION device and/or MinKNOW (?)
 - From ONT.
 - status passed
 
