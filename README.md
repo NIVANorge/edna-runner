@@ -76,13 +76,14 @@ eDNA pipeline runner
 -  fastaq files
   - identifier = Barcode
 - outoput can be used for both for MinKNOW and Epi2me
--  MinKNOW already "demultiplex" the sequences setting them in numbered barcode folders. 
-- 
+- ...
+
+ 
 #### MinKNOW output
 - run on local machine (notebook workstation)
 - de-multiplexing
 - output = fastq files
-- folders structure
+  - folders structure
   - identifier = Barcode 
 
 #### Epi2me 
