@@ -60,14 +60,22 @@ eDNA pipeline runner
 - needs to be rewritten
 
 #### ONT MinION input data
+- water samples
+- identifiers?
 
 #### ONT MinION output data
+- outoput can be used for both from MinKNOW and Epi2me
+- 
+#### MinKNOW output
+- run on local machine (notebook workstation)
+- fastq files comes from MinKNOW
+
+#### Epi2me 
+- The analysis report from Epi2ME Work Flow metagenomics 
+<img width="709" alt="image" src="https://github.com/NIVANorge/edna-runner/assets/117283235/b9e213b7-c7e1-462a-b15b-e64246dddb06">
 
 #### Folder structure
 ![image](https://github.com/NIVANorge/edna-runner/assets/117283235/87b7b228-dcc9-4ac3-8bbf-c52c14b08f7c)
-
-
-
 
 ##### fastq_fail
 - Sequencer output from ONT
