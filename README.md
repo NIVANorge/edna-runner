@@ -154,7 +154,9 @@ Regarding the ‘metabarflow’ pipeline, data analysis for each metabarcode pri
 - Benoit Demars (macrophytes)
 - Carsten Schwermer (AMR)
 - Anette Engesmo (Oceanography)
+- Sandra Gran (Oceanography)
 - Elianne Egge (Oceanography)
+- Marit Frederikke Markussen Bjorbækmo (Oceanography, fungi)
 - Zooplankton 
   - ?
 - Begroing
