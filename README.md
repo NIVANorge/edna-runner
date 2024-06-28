@@ -128,42 +128,26 @@ eDNA pipeline runner
 
 ## Reference library curation
 
-### NIVA - Oceanography
-- Anette Engesmo
-- Marc d'Auriac
-- ...
-
-### NIVA - Freshwater
-
-- Bunndyr
-  - Tor Erik Eriksen
-
-- Phytoplankton
-  - Andreas Ballot
-  - Birger Skjellbred 
-
-- Zooplankton
+### NIVA
+- Anette Engesmo (Oceanography)
+- Marc d'Auriac (MinION, ONT, EcoTox)
+- Elianne Egge (Oceanography)
+- Tor Erik Eriksen (macroinvertebrates)
+- Andreas Ballot (phytoplankton)
+- Birger Skjellbred (phytoplankton)
+- Benoit Demars (macrophytes)
+- Carsten Schwermer (AMR)
+- Zooplankton 
   - ?
-
-- Macrophytes
-  - Benoit Demars
-
 - Begroing
   - ?
-
 - Fish
   - ?
-
 - Fungi etc
   - ...?
 
 ### NIVA Denmark
-- Steen Knudsen
-
-### NIVA - ???
-
-- AMR
-  -   Carsten Schwermer
+- Steen Knudsen (metabarflow)
 
 ### Akvaplan-niva
 
