@@ -146,13 +146,19 @@ eDNA pipeline runner
 - Fungi etc
   - ...?
 
+
 ### NIVA Denmark
 - Steen Knudsen (metabarflow)
 
-### Akvaplan-niva
 
+### Akvaplan-niva
 - Lionel Camus
-- ...?
+- Ranghild Pettersen
+- Sanna Majaneva
+
+
+### UiT
+- Kim Praebel & team
 
 
 ## RefSeq: NCBI Reference Sequence Database
