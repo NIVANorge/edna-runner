@@ -14,7 +14,7 @@ eDNA pipeline runner
 ## infrastructure
 - nextflow (Kim)
   - Kubernetes
-  - ...
+  - ++
 - libraries
 - Google Cloud
 - Google Storage
@@ -46,7 +46,6 @@ Regarding the ‘metabarflow’ pipeline, data analysis for each metabarcode pri
 
 
 ### Metabarflow
-- Equinor tender info, Steen
 
 #### Metabarflow libraries
 
@@ -145,42 +144,6 @@ Regarding the ‘metabarflow’ pipeline, data analysis for each metabarcode pri
 # Reference libraries
 
 ## Reference library curation
-
-### NIVA
-- Marc d'Auriac (MinION, ONT, EcoTox)
-- You Song (Oceanography)
-- Tor Erik Eriksen (macroinvertebrates)
-- Andreas Ballot (phytoplankton)
-- Birger Skjellbred (phytoplankton)
-- Benoit Demars (macrophytes)
-- Carsten Schwermer (AMR)
-- Anette Engesmo (Oceanography)
-- Sandra Gran (Oceanography)
-- Elianne Egge (Oceanography)
-- Marit Frederikke Markussen Bjorbækmo (Oceanography, fungi)
-- Zooplankton 
-  - ?
-- Begroing
-  - ?
-- Fish
-  - ?
-- Fungi etc
-  - ...?
-
-
-### NIVA Denmark
-- Steen Knudsen (metabarflow)
-
-
-### Akvaplan-niva
-- Lionel Camus
-- Ranghild Pettersen
-- Sanna Majaneva
-
-
-### UiT
-- Kim Praebel & team
-
 
 ## RefSeq: NCBI Reference Sequence Database
 https://www.ncbi.nlm.nih.gov/refseq/
