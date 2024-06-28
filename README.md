@@ -148,6 +148,7 @@ Regarding the ‘metabarflow’ pipeline, data analysis for each metabarcode pri
 
 ### NIVA
 - Marc d'Auriac (MinION, ONT, EcoTox)
+- You Song (Oceanography)
 - Tor Erik Eriksen (macroinvertebrates)
 - Andreas Ballot (phytoplankton)
 - Birger Skjellbred (phytoplankton)
