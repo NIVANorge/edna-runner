@@ -129,14 +129,14 @@ eDNA pipeline runner
 ## Reference library curation
 
 ### NIVA
-- Anette Engesmo (Oceanography)
 - Marc d'Auriac (MinION, ONT, EcoTox)
-- Elianne Egge (Oceanography)
 - Tor Erik Eriksen (macroinvertebrates)
 - Andreas Ballot (phytoplankton)
 - Birger Skjellbred (phytoplankton)
 - Benoit Demars (macrophytes)
 - Carsten Schwermer (AMR)
+- Anette Engesmo (Oceanography)
+- Elianne Egge (Oceanography)
 - Zooplankton 
   - ?
 - Begroing
