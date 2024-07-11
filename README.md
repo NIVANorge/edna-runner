@@ -163,6 +163,7 @@ https://www.ncbi.nlm.nih.gov/refseq/
 
 # Resources
 
+- [nextflow-demos](https://github.com/stevekm/nextflow-demos)
 - [biocontainers](https://training.nextflow.io/basic_training/containers/#biocontainers)
 - [EPI2ME](https://labs.epi2me.io/wfindex/)
 - [apscale](https://github.com/DominikBuchner/apscale)
