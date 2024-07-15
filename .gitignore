@@ -41,3 +41,4 @@ sandbox
 wave-tests
 .RData
 .Rhistory
+results/output.txt

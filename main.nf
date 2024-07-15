@@ -1,12 +1,29 @@
 #!/usr/bin/env nextflow
-mode = 'run'
-params.range = 100
+/*
+ * Default pipeline parameters. They can be overriden on the command line eg.
+ * given `params.foo` specify on the run command line `--foo some_value`.
+ */
+
+params.reads = "$baseDir/data/ggal/ggal_gut_{1,2}.fq"
+params.update_db = false
+params.outdir = "results"
+
+
+log.info """\
+ NIVA eDNA   P I P E L I N E
+ ===================================
+ update_db    : ${params.update_db}
+ reads        : ${params.reads}
+ outdir       : ${params.outdir}
+ """
+
+// import modules
 
 process downloadNCBI {
   output:
     stdout
   script:
-    if( mode == 'update' )
+    if( params.update_db )
       """
       #!/usr/bin/Rscript
       
@@ -25,22 +42,18 @@ process downloadNCBI {
  * A Python script which parses the output of the previous script
  */
 process pyTask {
+    publishDir params.outdir, mode:'copy'
     input:
     stdin
 
     output:
-    stdout
+    file('output.txt')
 
+    script:
     """
-    #!/usr/bin/env python3
-    import sys
-
-    x = 0
-    y = 0
-    lines = 0
-    print(sys.argv)
-
+    python_task.py
     """
+
 }
 
 workflow {
