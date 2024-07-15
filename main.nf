@@ -5,14 +5,14 @@
  */
 
 params.reads = "$baseDir/data/ggal/ggal_gut_{1,2}.fq"
-params.update_db = false
+params.updatedb = false
 params.outdir = "results"
 
 
 log.info """\
  NIVA eDNA   P I P E L I N E
  ===================================
- update_db    : ${params.update_db}
+ updatedb    : ${params.updatedb}
  reads        : ${params.reads}
  outdir       : ${params.outdir}
  """
@@ -23,14 +23,9 @@ process downloadNCBI {
   output:
     stdout
   script:
-    if( params.update_db )
+    if( params.updatedb )
       """
-      #!/usr/bin/Rscript
-      
-      library("taxizedb")
-      
-      db_download_ncbi(overwrite=TRUE)
-      print("db_status <- 'updated'")
+      db_download_ncbi.R
       """
      else
       """
@@ -51,7 +46,7 @@ process pyTask {
 
     script:
     """
-    python_task.py
+    process.py
     """
 
 }
