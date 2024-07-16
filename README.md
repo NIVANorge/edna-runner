@@ -164,6 +164,7 @@ https://www.ncbi.nlm.nih.gov/refseq/
 # Resources
 
 - [nextflow-demos](https://github.com/stevekm/nextflow-demos)
+  - [oxford nanopore](https://nanoporetech.com/resource-centre/london-calling-2023-leveraging-nextflow-analysis-anything-anywhere-anyone)
 - [biocontainers](https://training.nextflow.io/basic_training/containers/#biocontainers)
 - [EPI2ME](https://labs.epi2me.io/wfindex/)
 - [apscale](https://github.com/DominikBuchner/apscale)
